@@ -261,6 +261,8 @@ class MainWP_Key_Maker {
 
     /**
      * MainWP_Key_Maker constructor.
+     *
+     * Run each time the class is called.
      */
     public function __construct() {
 		add_action( 'init', array( $this, 'init' ) );
